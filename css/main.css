@@ -1,0 +1,129 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+
+body {
+    background-color: plum;
+}
+
+.container {
+    display: inline-block;
+    float: left;
+    width: 1000px;
+    margin-left: calc(50%-1000px);
+    background-color: powderblue;
+}
+
+.top-part {
+    display: inline-block;
+    float: left;
+    width: 1000px;
+    background-color: yellow;   
+}
+
+.top-part > img {
+    display: inline-block;
+    float: left;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.top-navigation {
+    display: inline-block;
+    float: left;
+    margin-top: 25px;
+    margin-left: 400px;  
+}
+
+.links {
+    display: inline-block;
+    float: left;
+}
+
+.links > a {
+    display: inline-block;
+    float: left;
+    line-height: 14px;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 0 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.top-icons {
+    display: inline-block;
+    float: right;
+    margin-left: 40px;   
+}
+
+.top-icons > i {
+    line-height: 14px;
+    padding: 0 10px;
+}
+
+.main-face {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+
+}
+
+.text {
+    display: inline-block;
+    float: left;
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 50px;
+
+}
+
+.text > img {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 100px;
+}
+
+h1 {
+    display: inline-block;
+    /* position: absolute; */
+    line-height: 60px;
+    font-size: 56px;
+    padding: 30px 0;
+
+}
+ .text > p {
+     display: inline-block;
+     line-height: 24px;
+     font-size: 20px;
+
+ }
+
+ .text > p.price {
+     display: inline-block;
+     line-height: 30px;
+     font-size: 28px;
+     padding: 20px 0;
+ }
+
+ .pages > h2 {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+ }
+
+ .slider {
+     display: inline-block;
+     position: absolute;
+ }
