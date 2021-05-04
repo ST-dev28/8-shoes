@@ -61,7 +61,7 @@ nav > a.active {
 main.container {
   height: calc(100vh - 120px);
   position: relative;
-  background-image: url(../img/shoes1.png);
+  background-image: url(../img/shoes-1.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right center;
