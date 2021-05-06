@@ -9,17 +9,14 @@ body * {
 
 body {
   background-color: grey;
-}
-
-.background {
   background-image: url(../img/background1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
- 
- 
+
 }
+
 
 .container {
   display: inline-block;

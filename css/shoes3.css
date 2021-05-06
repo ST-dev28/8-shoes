@@ -1,0 +1,9 @@
+main.container {
+    height: calc(100vh - 120px);
+    position: relative;
+    background-image: url(../img/shoes3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;
+
+  }
