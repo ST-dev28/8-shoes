@@ -193,20 +193,15 @@ main.container {
     Height: 5px;
     width: calc(100%/3);
     float: left;
-    background-color: grey;
 }
 
-.slider-active:hover {
-  background-color: red; 
-}
 
 .slider-active {
   display:inline-block;
   Height: 5px;
   width: calc(100%/3);
   float: left;
-  background-color: red;
-}
+ }
 
 .link {
     display: block;
