@@ -54,6 +54,10 @@ nav > a.active {
   color: red;
 }
 
+nav > a:hover {
+  color: red;
+}
+
 .user-actions {
   display: flex;
 }
@@ -151,6 +155,7 @@ main.container {
   bottom: 0;
   left: 0;
   width: 200px;
+  top: 670px;
 }
 .pagination > .top {
   display: flex;
